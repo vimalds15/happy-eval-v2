@@ -1,0 +1,96 @@
+{
+  "modes": [
+    {
+      "type": "Monthly",
+      "id": "monthly"
+    },
+    {
+      "type": "Annual",
+      "id": "yearly"
+    },
+    {
+      "type": "2-Year Savings Plans",
+      "subText": "Paid Up-front",
+      "id": "two-years"
+    }
+  ],
+  "plans": [
+    {
+      "type": "basic",
+      "price": {
+        "monthly": "14",
+        "yearly": "9",
+        "two-years": "9"
+      },
+      "features": [
+        "Unlimited Tickets",
+        "Omnichannel Ticket Creation",
+        "SLA Management",
+        "Knowledge Base",
+        "SSO (GSuite/SAML/Azure)",
+        "Up to 5 Agents"
+      ],
+      "ctaText": "Get a Demo",
+      "ctaLink": "https://www.happyfox.com/help-desk-software-demo/"
+    },
+    {
+      "type": "team",
+      "price": {
+        "monthly": "69",
+        "yearly": "49",
+        "two-years": "39"
+      },
+      "subText": "Everything in Basic, and:",
+      "features": [
+        "Multi-brand Helpdesk",
+        "Custom Email",
+        "Custom Domain",
+        "Custom Roles and Permissions",
+        "Custom Ticket Queues",
+        "24/5 Email Support",
+        "Optional EU Data Center"
+      ],
+      "ctaText": "Get a Demo",
+      "ctaLink": "https://www.happyfox.com/help-desk-software-demo/"
+    },
+    {
+      "type": "pro",
+      "price": {
+        "monthly": "119",
+        "yearly": "99",
+        "two-years": "89"
+      },
+      "badge": "Most Popular",
+      "subText": "Everything in Team, and:",
+      "features": [
+        "Proactive Agent Collision",
+        "Task Management",
+        "Asset Management",
+        "Scheduled Tickets",
+        "IP-Based Restriction",
+        "Load Balanced Ticket Assignment",
+        "Password Policy Management",
+        "24/7 Email Support",
+        "Uptime SLA"
+      ],
+      "ctaText": "Get a Demo",
+      "ctaLink": "https://www.happyfox.com/help-desk-software-demo/"
+    },
+    {
+      "type": "Enterprise Pro",
+      "priceCtaText": "Contact Sales",
+      "priceCtaLink": "https://www.happyfox.com/contact/",
+      "features": [
+        "Everything in Pro, and:",
+        "Agent Scripting",
+        "2 TB Attachment Store",
+        "All-time Reporting History",
+        "Advanced Audit Logs",
+        "24/7 Phone Support",
+        "Customer Success Manager"
+      ],
+      "ctaText": "Get a Demo",
+      "ctaLink": "https://www.happyfox.com/help-desk-software-demo/"
+    }
+  ]
+}

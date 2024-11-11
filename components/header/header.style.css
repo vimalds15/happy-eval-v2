@@ -1,0 +1,123 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rem;
+  margin-top: 0.6rem;
+}
+
+.header-logo {
+  display: flex;
+  gap: 1.8rem;
+  align-items: center;
+}
+
+.header-logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.header-products {
+  display: flex;
+  gap: 0.4rem;
+  background-color: #ffecec;
+  padding: 0.8rem 1.8rem;
+  border-radius: 0.7rem 0.7rem 0rem 0rem;
+  border: 1px solid rgb(255 58 58 / 20%);
+  border-bottom: 0;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header-expand-products {
+  display: block;
+  height: 28.5rem;
+  width: 47%;
+  position: absolute;
+  left: 19.1rem;
+  background: #fff;
+  z-index: 15;
+  transition: all 300ms ease;
+  border-top: 1px solid rgb(255 58 58 / 20%);
+  border-radius: 0 0 0.7rem 0.7rem;
+}
+
+.header-products > .arrow-down.active {
+  transform: rotate(180%);
+}
+
+.header-expand-products {
+  display: none;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  padding: 1rem;
+  column-gap: 1.5rem;
+}
+
+.header-expand-products-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0.6rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.header-expand-products-item:hover {
+  background-color: #f3f3f3;
+}
+
+.header-expand-products-item > div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.header-expand-products-item > div > img {
+  height: 20px;
+  width: 20px;
+}
+
+.header-expand-products .title {
+  margin-top: -2.5px;
+  font-size: 16px;
+}
+.header-expand-products .description {
+  font-size: 12px;
+  color: #555;
+  font-weight: 300;
+  line-height: 1rem;
+  margin-top: 0.6rem;
+}
+
+.header-login-cta {
+  background-color: black;
+  border-radius: 5px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  margin-top: -0.5rem;
+}
+
+.header-login-cta p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    padding: 0.6rem 6rem;
+  }
+  .header-expand-products {
+    left: 19.1rem;
+  }
+  .header-products {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    padding: 0.6rem 2rem;
+  }
+}

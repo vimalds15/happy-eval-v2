@@ -1,0 +1,724 @@
+#navbar {
+  position: sticky;
+  top: 0;
+  background-color: #ffecec;
+  z-index: 5;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 10rem;
+  background-color: #ffecec;
+  border-top: 1px solid rgb(255 58 58 / 20%);
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hamburger-menu-icon {
+  height: 15px;
+  width: 15px;
+  margin-right: 1.5rem;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.navbar-options-container {
+  display: none;
+  gap: 3rem;
+}
+.secondary-navbar-options-container {
+  display: none;
+  gap: 3rem;
+}
+
+.navbar-options-item,
+.secondary-navbar-options-item {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: background-color 200ms ease;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.secondary-navbar-options-item p {
+  text-wrap: nowrap;
+}
+
+.navbar-options-item:hover {
+  background-color: #ffffff;
+}
+
+.navbar-demo-cta {
+  background-color: #ff3a3a;
+  padding: 0.3rem 0.7rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar-features-expand-container {
+  display: none;
+  height: 80vh;
+  background: linear-gradient(293deg, #fff, #fff),
+    linear-gradient(291deg, #f9f9f9, #f9f9f9),
+    linear-gradient(291deg, #f9f9f9, #f9f9f9);
+  background-position: left top, right top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 75% 100%, 25% 100%;
+  gap: 4rem;
+  padding: 3rem 10rem;
+  overflow: hidden;
+  position: fixed;
+  /* top: 7rem; */
+  width: 100%;
+  z-index: 15;
+}
+
+.navbar-features-expand-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+  flex: 1;
+  gap: 1rem;
+  overflow: hidden;
+}
+
+.navbar-features-expand-column:nth-child(2) {
+  flex: 2;
+}
+
+.navbar-features-expand-column:nth-child(3) {
+  background-color: #f9f9f9;
+  height: 120%;
+  margin: -3rem 0;
+  padding: 3rem 0;
+  padding-left: 1.5rem;
+}
+
+.navbar-expand-feature {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  max-width: 280px;
+  padding: 1rem;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.navbar-expand-feature:hover {
+  background-color: #f9f9f9;
+}
+
+.navbar-expand-feature svg {
+  min-width: 15px;
+  min-height: 15px;
+  margin-top: 0.3rem;
+  margin-right: 0.6rem;
+}
+
+.navbar-features-expand-category {
+  font-size: 14px;
+  color: #646f79;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.navbar-expand-features-title {
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  color: #181c20;
+  align-items: center;
+}
+
+.navbar-expand-features-description {
+  font-size: 13px;
+  color: #646f79;
+  font-weight: 300;
+}
+
+.navbar-expand-features-title::after {
+  content: "";
+  height: 14px;
+  width: 14px;
+  background-image: url(https://assets.www.happyfox.com/v2/images/menu-small-arrow-grey.svg);
+  opacity: 0;
+  margin-left: 5px;
+  display: inline-block;
+  transition: opacity 0.3s ease;
+}
+
+.navbar-expand-feature:hover .navbar-expand-features-title::after {
+  opacity: 1;
+}
+
+.navbar-features-expand-integrations .navbar-expand-feature {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  padding: 0.2rem;
+  margin-left: 0.7rem;
+  border-radius: 10px;
+  padding-left: 0.4rem;
+}
+
+.navbar-features-expand-integrations .navbar-expand-feature img {
+  height: 20px;
+  width: 20px;
+}
+
+.navbar-features-expand-integrations .navbar-expand-feature:hover {
+  background-color: #fff;
+}
+
+.navbar-solutions-expand-container {
+  display: none;
+  height: 80vh;
+  background: linear-gradient(293deg, #fff, #fff),
+    linear-gradient(291deg, #f9f9f9, #f9f9f9),
+    linear-gradient(291deg, #f9f9f9, #f9f9f9);
+  background-position: left top, right top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 75% 100%, 25% 100%;
+  gap: 4rem;
+  padding: 3rem 10rem;
+  overflow: hidden;
+  position: fixed;
+  justify-content: space-between;
+  top: 7rem;
+  width: 100%;
+  z-index: 15;
+  flex: 1;
+}
+
+.navbar-solutions-expand-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+  gap: 1rem;
+  overflow: hidden;
+  flex: 1;
+}
+.navbar-solutions-expand-column:first-child {
+  flex: 5;
+}
+
+.navbar-solutions-sub-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 92%;
+  gap: 0.87rem;
+  width: 100%;
+  flex: 1;
+  /* margin-left: -3.1rem; */
+}
+
+.navbar-solutions-expand-column:nth-child(2) {
+  background-color: #f9f9f9;
+  height: 120%;
+  margin: -3rem 0;
+  padding: 3rem 0;
+  padding-left: 1.5rem;
+}
+
+.navbar-expand-solution {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  max-width: 280px;
+  padding: 1rem;
+  border-radius: 14px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.navbar-expand-solution:hover {
+  background-color: #f9f9f9;
+}
+
+.navbar-expand-solution svg {
+  min-width: 15px;
+  min-height: 15px;
+  margin-top: 0.3rem;
+  margin-right: 0.6rem;
+}
+
+.navbar-solutions-expand-category {
+  font-size: 14px;
+  color: #646f79;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.navbar-expand-solutions-title {
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  color: #181c20;
+  align-items: center;
+  text-wrap: nowrap;
+}
+
+.navbar-expand-solutions-description {
+  font-size: 13px;
+  color: #646f79;
+  font-weight: 300;
+}
+
+.navbar-expand-solutions-title::after {
+  content: "";
+  height: 14px;
+  width: 14px;
+  background-image: url(https://assets.www.happyfox.com/v2/images/menu-small-arrow-grey.svg);
+  opacity: 0;
+  margin-left: 5px;
+  display: inline-block;
+  transition: opacity 0.3s ease;
+}
+
+.navbar-expand-solution:hover .navbar-expand-solutions-title::after {
+  opacity: 1;
+}
+
+.navbar-solutions-expand-integrations {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.navbar-solutions-expand-integrations > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  width: 100%;
+  padding: 0.6rem;
+}
+
+.navbar-solutions-expand-integrations .navbar-solutions-expand-category {
+  margin-bottom: 1rem;
+}
+
+.navbar-solutions-expand-integrations .navbar-expand-solution {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  padding: 0.2rem;
+  margin-left: 0.7rem;
+  border-radius: 10px;
+  padding-left: 0.4rem;
+}
+
+.navbar-solutions-expand-integrations .navbar-expand-solution img {
+  height: 20px;
+  width: 20px;
+}
+
+.navbar-solutions-expand-integrations .navbar-expand-solution:hover {
+  background-color: #fff;
+}
+
+.navbar-resources-expand-container {
+  display: none;
+  height: 70vh;
+  background: linear-gradient(293deg, #fff, #fff),
+    linear-gradient(291deg, #f9f9f9, #f9f9f9),
+    linear-gradient(291deg, #f9f9f9, #f9f9f9);
+  background-position: left top, right top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 75% 100%, 25% 100%;
+  gap: 4rem;
+  padding: 3rem 10rem;
+  overflow: hidden;
+  position: fixed;
+  justify-content: space-between;
+  top: 7rem;
+  width: 100%;
+  z-index: 15;
+  flex: 1;
+}
+
+.navbar-resources-expand-container.active {
+  display: flex;
+}
+
+.navbar-resources-expand-column {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  height: 100%;
+  gap: 2rem;
+  overflow: hidden;
+  flex: 1;
+}
+
+.navbar-resources-sub-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 92%;
+  gap: 0.87rem;
+  width: 100%;
+  flex: 1;
+  /* margin-left: -3.1rem; */
+}
+
+.navbar-resources-expand-column:nth-child(2) {
+  background-color: #f9f9f9;
+  height: 120%;
+  margin: -3rem 0;
+  padding: 3rem 0;
+  padding-left: 1.5rem;
+}
+
+.navbar-expand-resource,
+.navbar-expand-resource-featured {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  max-width: 240px;
+  padding: 1rem;
+  border-radius: 14px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.navbar-expand-resource-featured {
+  max-width: 100%;
+}
+
+.navbar-expand-resource-featured img {
+  width: 142px;
+  height: 80px;
+  margin-right: 1rem;
+}
+
+.navbar-expand-resources-featured-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar-expand-resources-featured-cta {
+  margin-top: 0.7rem;
+}
+
+.navbar-expand-resources-featured-content > div {
+  flex: 1;
+}
+
+.navbar-expand-resource:hover {
+  background-color: #f9f9f9;
+}
+
+.navbar-expand-resource svg {
+  min-width: 15px;
+  min-height: 15px;
+  margin-top: 0.3rem;
+  margin-right: 0.6rem;
+}
+
+.navbar-resources-expand-category {
+  font-size: 14px;
+  color: #646f79;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.navbar-expand-resources-title {
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  color: #181c20;
+  text-wrap: nowrap;
+}
+
+.navbar-expand-resources-featured-title {
+  font-size: 13px;
+  color: #646f79;
+  font-weight: 300;
+}
+
+.navbar-expand-resources-featured-description {
+  font-size: 16px;
+  color: #212529;
+  font-weight: 300;
+  width: 70%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.navbar-expand-resources-featured-cta {
+  font-size: 15px;
+  color: #808990;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+}
+
+.navbar-expand-resources-description {
+  font-size: 13px;
+  color: #646f79;
+  font-weight: 300;
+}
+
+.navbar-expand-resources-featured-cta::after {
+  content: "";
+  height: 14px;
+  width: 14px;
+  background-image: url(https://assets.www.happyfox.com/v2/images/menu-small-arrow-grey.svg);
+  opacity: 0;
+  margin-left: 5px;
+  display: inline-block;
+  transition: opacity 0.3s ease;
+}
+.navbar-expand-resources-title::after {
+  content: "";
+  height: 14px;
+  width: 14px;
+  background-image: url(https://assets.www.happyfox.com/v2/images/menu-small-arrow-grey.svg);
+  opacity: 0;
+  margin-left: 5px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.navbar-expand-resource:hover .navbar-expand-resources-title::after {
+  opacity: 1;
+}
+
+.navbar-expand-resource-featured:hover
+  .navbar-expand-resources-featured-cta::after {
+  opacity: 1;
+}
+
+.navbar-expand-resource-featured:hover .navbar-expand-resources-featured-cta {
+  color: #ff3a3a;
+}
+
+.navbar-resources-expand-integrations {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.navbar-resources-expand-integrations > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  width: 100%;
+  padding: 0.6rem;
+}
+
+.navbar-resources-expand-integrations .navbar-resources-expand-category {
+  margin-bottom: 1rem;
+}
+
+.navbar-resources-expand-integrations .navbar-expand-resource {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  padding: 0.2rem;
+  margin-left: 0.7rem;
+  border-radius: 10px;
+  padding-left: 0.4rem;
+}
+
+.navbar-resources-expand-integrations .navbar-expand-resource img {
+  height: 20px;
+  width: 20px;
+}
+
+.navbar-resources-expand-integrations .navbar-expand-resource-featured:hover {
+  background-color: #fff;
+}
+
+.mobile-navbar {
+  display: none;
+  position: absolute;
+  width: 100%;
+  padding: 0.6rem 6rem;
+  background-color: white;
+  top: 7rem;
+  height: 80vh;
+}
+
+.navbar-item,
+.nested-item {
+  padding-bottom: 0.6rem;
+  margin-top: 0.6rem;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.navbar-header,
+.nested-item .navbar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar-header p,
+.nested-item .navbar-header p {
+  margin: 0;
+}
+
+.toggle {
+  font-size: 20px;
+}
+
+.navbar-content {
+  display: none;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+
+.navbar-content p {
+  padding: 0.6rem 0.6rem;
+  margin: 0.2rem 0;
+  font-size: 14px;
+  font-weight: 300;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.navbar-content p:hover {
+  background-color: #f7f7f7;
+}
+.nested-item > .navbar-header p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.navbar-content.show {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-header:hover {
+  background-color: #f7f7f7;
+}
+
+.mobile-navbar.active {
+  display: block;
+}
+
+.secondary-navbar {
+  display: none;
+  background-color: white;
+  justify-content: center;
+  border-bottom: 1px solid #eee;
+}
+
+.secondary-navbar .secondary-navbar-options-item {
+  transition: all 350ms ease;
+  font-weight: 500;
+  border-radius: 0;
+  border-bottom: 1px solid transparent;
+}
+
+.secondary-navbar .secondary-navbar-options-item.active {
+  color: #ff3a3a;
+  border-bottom: 1px solid #ff3a3a;
+  border-radius: 0;
+  font-weight: 500;
+}
+
+@media (max-width: 1500px) {
+  .navbar-features-expand-container {
+    gap: 1rem;
+  }
+
+  .navbar-solutions-expand-container {
+    gap: 0.5rem;
+  }
+
+  .navbar-expand-solution {
+    display: flex;
+    align-items: flex-start;
+    max-width: 220px;
+    padding: 1rem;
+    border-radius: 14px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navbar {
+    padding: 0.6rem 6rem;
+  }
+  .navbar-features-expand-container {
+    display: none;
+  }
+  .navbar-solutions-expand-container {
+    display: none;
+  }
+  .navbar-resources-expand-container {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-options-container {
+    display: flex;
+  }
+
+  .mobile-navbar.active,
+  .hamburger-menu-icon {
+    display: none;
+  }
+  .navbar-features-expand-column:nth-child(2) {
+    flex: 3;
+  }
+  .navbar-features-expand-container.active {
+    display: flex;
+  }
+  .navbar-solutions-expand-container.active {
+    display: flex;
+  }
+  .navbar-resources-expand-container.active {
+    display: flex;
+  }
+
+  .navbar-expand-feature {
+    display: flex;
+    align-items: flex-start;
+    max-width: 250px;
+    padding: 1rem;
+    border-radius: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar,
+  .mobile-navbar {
+    padding: 0.6rem 2rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .secondary-navbar-options-container {
+    display: flex;
+  }
+}

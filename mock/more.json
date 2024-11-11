@@ -1,0 +1,37 @@
+[
+    {
+        "title":"Live Chat",
+        "description":"Chat with your customers instantly on mobile, desktop, and web.",
+        "logo": "https://assets.www.happyfox.com/v2/images/pricing-lc.svg",
+        "ctaText": "Start a Free Trial",
+        "ctaLink":"https://happyfoxchat.com/v2/signup/"
+    },
+    {
+        "title":"Chatbot",
+        "description":"Engage and reach your customers 24x7 with ready-to-go chatbots.",
+        "logo": "https://assets.www.happyfox.com/v2/images/pricing-cb.svg",
+        "ctaText": "Get a Demo",
+        "ctaLink":"https://www.happyfox.com/chatbot/"
+    },
+    {
+        "title":"Assist AI",
+        "description":"Provide IT support directly from Slack and Microsoft Teams.",
+        "logo": "https://assets.www.happyfox.com/v2/images/pricing-ai.svg",
+        "ctaText": "Get a Demo",
+        "ctaLink":"https://www.happyfox.com/assist-ai/"
+    },
+    {
+        "title":"Business Intelligence",
+        "description":"Turn insight into advantage with cross-functional reports & dashboards.",
+        "logo": "https://assets.www.happyfox.com/v2/images/pricing-bi.svg",
+        "ctaText": "Get a Demo",
+        "ctaLink":"https://www.happyfox.com/business-intelligence/"
+    },
+    {
+        "title":"Workflow Automation",
+        "description":"Reduce the grunt work with end-to-end process automation.",
+        "logo": "https://assets.www.happyfox.com/v2/images/pricing-wa.svg",
+        "ctaText": "Get a Demo",
+        "ctaLink":"https://www.happyfox.com/workflows/"
+    }
+]

@@ -1,0 +1,636 @@
+{
+  "agent": {
+    "faq": [
+      {
+        "question": "Who are help desk agents?",
+        "answer": "Support agents (help desk staff) who will be actively managing and responding to tickets raised by contacts."
+      },
+      {
+        "question": "What are categories?",
+        "answer": "Categories allow you to separate incoming requests into dedicated ticket types that can be distributed to a specific team, have unique SLA requirements, and produce insightful metrics."
+      },
+      {
+        "question": "How can I change my plan?",
+        "answer": "You can upgrade your plan at any point in time. However, if you want to downgrade, you can do it at the end of the current billing cycle. You may also write to billing@happyfox.com or contact your Account Executive."
+      },
+      {
+        "question": "Do you offer a trial?",
+        "answer": "Yes. We encourage you to request a demo to determine if HappyFox Help Desk is the right fit for your organization. Once we identify your needs, we'd be happy to provide access to a trial account where you can configure your proof of concept"
+      },
+      {
+        "question": "Do you offer discounts for non-profits or educational institutes?",
+        "answer": "We offer a 10% discount on annual subscriptions on any plan."
+      },
+      {
+        "question": "What are the available billing cycles?",
+        "answer": "We offer a monthly, annual and 2-year savings plan (paid upfront)."
+      }
+    ],
+    "plans": {
+      "modes": [
+        {
+          "type": "Monthly",
+          "id": "monthly"
+        },
+        {
+          "type": "Annual",
+          "id": "yearly"
+        },
+        {
+          "type": "2-Year Savings Plans",
+          "subText": "Paid Up-front",
+          "id": "two-years"
+        }
+      ],
+      "plans": [
+        {
+          "type": "basic",
+          "price": {
+            "monthly": "14",
+            "yearly": "9",
+            "two-years": "9"
+          },
+          "features": [
+            "Unlimited Tickets",
+            "Omnichannel Ticket Creation",
+            "SLA Management",
+            "Knowledge Base",
+            "SSO (GSuite/SAML/Azure)",
+            "Up to 5 Agents"
+          ],
+          "ctaText": "Get a Demo",
+          "ctaLink": "https://www.happyfox.com/help-desk-software-demo/"
+        },
+        {
+          "type": "team",
+          "price": {
+            "monthly": "69",
+            "yearly": "49",
+            "two-years": "39"
+          },
+          "subText": "Everything in Basic, and:",
+          "features": [
+            "Multi-brand Helpdesk",
+            "Custom Email",
+            "Custom Domain",
+            "Custom Roles and Permissions",
+            "Custom Ticket Queues",
+            "24/5 Email Support",
+            "Optional EU Data Center"
+          ],
+          "ctaText": "Get a Demo",
+          "ctaLink": "https://www.happyfox.com/help-desk-software-demo/"
+        },
+        {
+          "type": "pro",
+          "price": {
+            "monthly": "119",
+            "yearly": "99",
+            "two-years": "89"
+          },
+          "badge": "Most Popular",
+          "subText": "Everything in Team, and:",
+          "features": [
+            "Proactive Agent Collision",
+            "Task Management",
+            "Asset Management",
+            "Scheduled Tickets",
+            "IP-Based Restriction",
+            "Load Balanced Ticket Assignment",
+            "Password Policy Management",
+            "24/7 Email Support",
+            "Uptime SLA"
+          ],
+          "ctaText": "Get a Demo",
+          "ctaLink": "https://www.happyfox.com/help-desk-software-demo/"
+        },
+        {
+          "type": "Enterprise Pro",
+          "priceCtaText": "Contact Sales",
+          "priceCtaLink": "https://www.happyfox.com/contact/",
+          "subText": "Everything in Pro, and:",
+          "features": [
+            "Agent Scripting",
+            "2 TB Attachment Store",
+            "All-time Reporting History",
+            "Advanced Audit Logs",
+            "24/7 Phone Support",
+            "Customer Success Manager"
+          ],
+          "ctaText": "Get a Demo",
+          "ctaLink": "https://www.happyfox.com/help-desk-software-demo/"
+        }
+      ]
+    },
+    "compare": {
+      "headers": ["Basic", "Team", "Pro", "Enterprise PRO"],
+      "features": [
+        {
+          "items": [
+            {
+              "header": "Number of agents",
+              "basic": "Up to 5",
+              "team": "No limit",
+              "pro": "No limit",
+              "epro": "No limit"
+            }
+          ]
+        },
+        {
+          "category": "Ticket Management",
+          "items": [
+            {
+              "header": "Unlimited Mailboxes",
+              "basic": true,
+              "team": true,
+              "pro": true,
+              "epro": true
+            },
+            {
+              "header": "Unlimited Categories",
+              "basic": true,
+              "team": true,
+              "pro": true,
+              "epro": true
+            },
+            {
+              "header": "Unlimited Tickets",
+              "basic": true,
+              "team": true,
+              "pro": true,
+              "epro": true
+            },
+            {
+              "header": "Customizable Statuses",
+              "basic": true,
+              "team": true,
+              "pro": true,
+              "epro": true
+            },
+            {
+              "header": "Customizable Priorities",
+              "basic": true,
+              "team": true,
+              "pro": true,
+              "epro": true
+            },
+            {
+              "header": "Ticket Custom Fields",
+              "basic": true,
+              "team": true,
+              "pro": true,
+              "epro": true
+            },
+            {
+              "header": "Multilingual Agent Portal",
+              "basic": true,
+              "team": true,
+              "pro": true,
+              "epro": true
+            },
+            {
+              "header": "Agent Collision",
+              "basic": true,
+              "team": true,
+              "pro": true,
+              "epro": true
+            },
+            {
+              "header": "Satisfaction Surveys",
+              "basic": true,
+              "team": true,
+              "pro": true,
+              "epro": true
+            },
+            {
+              "header": "Category Wise Statuses",
+              "basic": false,
+              "team": false,
+              "pro": false,
+              "epro": true
+            },
+            {
+              "header": "Attachment Store",
+              "basic": "50 GB",
+              "team": "500 GB",
+              "pro": "1 TB",
+              "epro": "2 TB"
+            }
+          ]
+        },
+        {
+          "category": "Customer Management",
+          "items": [
+            {
+              "header": "Unlimited Contacts",
+              "basic": true,
+              "team": true,
+              "pro": true,
+              "epro": true
+            },
+            {
+              "header": "Import Contacts",
+              "basic": true,
+              "team": true,
+              "pro": true,
+              "epro": true
+            },
+            {
+              "header": "Contact Custom Fields",
+              "basic": true,
+              "team": true,
+              "pro": true,
+              "epro": true
+            },
+            {
+              "header": "Unlimited Contact Groups",
+              "basic": true,
+              "team": true,
+              "pro": true,
+              "epro": true
+            },
+            {
+              "header": "Contact Group Custom Fields",
+              "basic": false,
+              "team": false,
+              "pro": true,
+              "epro": true
+            },
+            {
+              "header": "Unlimited Contacts",
+              "basic": true,
+              "team": true,
+              "pro": true,
+              "epro": true
+            },
+            {
+              "header": "Import Contacts",
+              "basic": true,
+              "team": true,
+              "pro": true,
+              "epro": true
+            },
+            {
+              "header": "Contact Custom Fields",
+              "basic": true,
+              "team": true,
+              "pro": true,
+              "epro": true
+            },
+            {
+              "header": "Unlimited Contact Groups",
+              "basic": true,
+              "team": true,
+              "pro": true,
+              "epro": true
+            },
+            {
+              "header": "Contact Group Custom Fields",
+              "basic": false,
+              "team": false,
+              "pro": true,
+              "epro": true
+            }
+          ]
+        },
+        {
+          "category": "Help Desk Automation",
+          "items": [
+            {
+              "header": "Smart Rule Automation",
+              "basic": true,
+              "team": true,
+              "pro": true,
+              "epro": true
+            },
+            {
+              "header": "SLA Breach Notification",
+              "basic": false,
+              "team": true,
+              "pro": true,
+              "epro": true
+            },
+            {
+              "header": "Load Balanced Ticket Assignment",
+              "basic": false,
+              "team": false,
+              "pro": true,
+              "epro": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "unlimited": {
+    "faq": [
+      {
+        "question": "What do you mean by unlimited agents?",
+        "answer": "For all the 'Unlimited Agents' plans, you can add any number of staff in your corporate domain. For example, if happyfox.com is your email domain, anyone with that email address can be invited as an agent."
+      },
+      {
+        "question": "What are custom fields and how does the limit work?",
+        "answer": "Custom fields are additional custom properties that you can add to a ticket, contact or contact group. Unlimited Agents plans have custom field limits. Ticket fields, contact fields, and contact-group fields collectively make up for the total custom fields used on your account."
+      },
+      {
+        "question": "What happens once we reach the total ticket limit?",
+        "answer": "You will be billed for every 5,000 additional tickets depending on your plan. The total ticket limit only applies to 'Unlimited Agents' plans."
+      },
+      {
+        "question": "Can I delete tickets to limit the total ticket count?",
+        "answer": "Yes, you can delete tickets to stay below the total ticket count. However, please note that deleted tickets cannot be restored. Consider upgrading to a higher plan if you need to retain all ticket history."
+      },
+      {
+        "question": "Can I pay month-on-month for 'Unlimited Agents' plans?",
+        "answer": "No. Unfortunately, we don't have a month-on-month option for 'Unlimited Agents' plans."
+      },
+      {
+        "question": "What are the available billing cycles?",
+        "answer": "For unlimited agent plans, we offer annual and 2-year savings plan (paid upfront) options."
+      }
+    ],
+    "compare": {
+      "headers": ["Growth", "Scale", "Scale Plus", "Ultimate"],
+      "features": [
+        {
+          "items": [
+            {
+              "header": "Number of agents",
+              "growth": "Unlimited",
+              "scale": "Unlimited",
+              "scale plus": "Unlimited",
+              "ultimate": "Unlimited"
+            },
+            {
+              "header": "Tickets per year",
+              "growth": "20,000",
+              "scale": "150,000",
+              "scale plus": "300,000",
+              "ultimate": "1,000,000"
+            },
+            {
+              "header": "Custom Fields",
+              "growth": "20",
+              "scale": "100",
+              "scale plus": "200",
+              "ultimate": "300"
+            }
+          ]
+        },
+        {
+          "category": "Ticket Management",
+          "items": [
+            {
+              "header": "Unlimited Mailboxes",
+              "growth": true,
+              "scale": true,
+              "scale plus": true,
+              "ultimate": true
+            },
+            {
+              "header": "Unlimited Categories",
+              "growth": true,
+              "scale": true,
+              "scale plus": true,
+              "ultimate": true
+            },
+            {
+              "header": "Unlimited Tickets",
+              "growth": true,
+              "scale": true,
+              "scale plus": true,
+              "ultimate": true
+            },
+            {
+              "header": "Customizable Statuses",
+              "growth": true,
+              "scale": true,
+              "scale plus": true,
+              "ultimate": true
+            },
+            {
+              "header": "Customizable Priorities",
+              "growth": true,
+              "scale": true,
+              "scale plus": true,
+              "ultimate": true
+            },
+            {
+              "header": "Ticket Custom Fields",
+              "growth": true,
+              "scale": true,
+              "scale plus": true,
+              "ultimate": true
+            },
+            {
+              "header": "Multilingual Agent Portal",
+              "growth": true,
+              "scale": true,
+              "scale plus": true,
+              "ultimate": true
+            },
+            {
+              "header": "Agent Collision",
+              "growth": true,
+              "scale": true,
+              "scale plus": true,
+              "ultimate": true
+            },
+            {
+              "header": "Satisfaction Surveys",
+              "growth": true,
+              "scale": true,
+              "scale plus": true,
+              "ultimate": true
+            },
+            {
+              "header": "Category Wise Statuses",
+              "growth": false,
+              "scale": false,
+              "scale plus": false,
+              "ultimate": true
+            },
+            {
+              "header": "Attachment Store",
+              "growth": "50 GB",
+              "scale": "500 GB",
+              "scale plus": "1 TB",
+              "ultimate": "2 TB"
+            }
+          ]
+        },
+        {
+          "category": "Customer Management",
+          "items": [
+            {
+              "header": "Unlimited Contacts",
+              "growth": true,
+              "scale": true,
+              "scale plus": true,
+              "ultimate": true
+            },
+            {
+              "header": "Import Contacts",
+              "growth": true,
+              "scale": true,
+              "scale plus": true,
+              "ultimate": true
+            },
+            {
+              "header": "Contact Custom Fields",
+              "growth": true,
+              "scale": true,
+              "scale plus": true,
+              "ultimate": true
+            },
+            {
+              "header": "Unlimited Contact Groups",
+              "growth": true,
+              "scale": true,
+              "scale plus": true,
+              "ultimate": true
+            },
+            {
+              "header": "Contact Group Custom Fields",
+              "growth": false,
+              "scale": false,
+              "scale plus": true,
+              "ultimate": true
+            },
+            {
+              "header": "Unlimited Contacts",
+              "growth": true,
+              "scale": true,
+              "scale plus": true,
+              "ultimate": true
+            },
+            {
+              "header": "Import Contacts",
+              "growth": true,
+              "scale": true,
+              "scale plus": true,
+              "ultimate": true
+            },
+            {
+              "header": "Contact Custom Fields",
+              "growth": true,
+              "scale": true,
+              "scale plus": true,
+              "ultimate": true
+            },
+            {
+              "header": "Unlimited Contact Groups",
+              "growth": true,
+              "scale": true,
+              "scale plus": true,
+              "ultimate": true
+            },
+            {
+              "header": "Contact Group Custom Fields",
+              "growth": false,
+              "scale": false,
+              "scale plus": true,
+              "ultimate": true
+            }
+          ]
+        },
+        {
+          "category": "Help Desk Automation",
+          "items": [
+            {
+              "header": "Smart Rule Automation",
+              "growth": true,
+              "scale": true,
+              "scale plus": true,
+              "ultimate": true
+            },
+            {
+              "header": "SLA Breach Notification",
+              "growth": false,
+              "scale": true,
+              "scale plus": true,
+              "ultimate": true
+            },
+            {
+              "header": "Load Balanced Ticket Assignment",
+              "growth": false,
+              "scale": false,
+              "scale plus": true,
+              "ultimate": true
+            }
+          ]
+        }
+      ]
+    },
+    "plans": {
+      "modes": [
+        {
+          "type": "Annual",
+          "id": "yearly"
+        },
+        {
+          "type": "2-Year Savings Plans",
+          "subText": "Paid Up-front",
+          "id": "two-years"
+        }
+      ],
+      "plans": [
+        {
+          "type": "Growth",
+          "price": {
+            "yearly": "1,999",
+            "two-years": "1,599"
+          },
+          "features": [
+            "Unlimited Agents",
+            "20,000 Tickets / year",
+            "20 Custom Fields"
+          ],
+          "ctaText": "Get a Demo",
+          "ctaLink": "https://www.happyfox.com/help-desk-software-demo/"
+        },
+        {
+          "type": "Scale",
+          "price": {
+            "yearly": "3,999",
+            "two-years": "3,199"
+          },
+          "features": [
+            "Unlimited Agents",
+            "20,000 Tickets / year",
+            "20 Custom Fields"
+          ],
+          "ctaText": "Get a Demo",
+          "ctaLink": "https://www.happyfox.com/help-desk-software-demo/"
+        },
+        {
+          "type": "Scale Plus",
+          "price": {
+            "yearly": "5,999",
+            "two-years": "4,799"
+          },
+          "badge": "Most Popular",
+          "features": [
+            "Unlimited Agents",
+            "20,000 Tickets / year",
+            "20 Custom Fields"
+          ],
+          "ctaText": "Get a Demo",
+          "ctaLink": "https://www.happyfox.com/help-desk-software-demo/"
+        },
+        {
+          "type": "Ultimate",
+          "priceCtaText": "Contact Sales",
+          "priceCtaLink": "https://www.happyfox.com/contact/",
+          "features": [
+            "Unlimited Agents",
+            "20,000 Tickets / year",
+            "20 Custom Fields"
+          ],
+          "ctaText": "Get a Demo",
+          "ctaLink": "https://www.happyfox.com/help-desk-software-demo/"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "headers": ["Basic", "Team", "Pro", "Enterprise PRO"],
+  "features": [
+    {
+      "items": [
+        {
+          "header": "Number of agents",
+          "basic": "Up to 5",
+          "team": "No limit",
+          "pro": "No limit",
+          "epro": "No limit"
+        }
+      ]
+    },
+    {
+      "category": "Ticket Management",
+      "items": [
+        {
+          "header": "Unlimited Mailboxes",
+          "basic": true,
+          "team": true,
+          "pro": true,
+          "epro": true
+        },
+        {
+          "header": "Unlimited Categories",
+          "basic": true,
+          "team": true,
+          "pro": true,
+          "epro": true
+        },
+        {
+          "header": "Unlimited Tickets",
+          "basic": true,
+          "team": true,
+          "pro": true,
+          "epro": true
+        },
+        {
+          "header": "Customizable Statuses",
+          "basic": true,
+          "team": true,
+          "pro": true,
+          "epro": true
+        },
+        {
+          "header": "Customizable Priorities",
+          "basic": true,
+          "team": true,
+          "pro": true,
+          "epro": true
+        },
+        {
+          "header": "Ticket Custom Fields",
+          "basic": true,
+          "team": true,
+          "pro": true,
+          "epro": true
+        },
+        {
+          "header": "Multilingual Agent Portal",
+          "basic": true,
+          "team": true,
+          "pro": true,
+          "epro": true
+        },
+        {
+          "header": "Agent Collision",
+          "basic": true,
+          "team": true,
+          "pro": true,
+          "epro": true
+        },
+        {
+          "header": "Satisfaction Surveys",
+          "basic": true,
+          "team": true,
+          "pro": true,
+          "epro": true
+        },
+        {
+          "header": "Category Wise Statuses",
+          "basic": false,
+          "team": false,
+          "pro": false,
+          "epro": true
+        },
+        {
+          "header": "Attachment Store",
+          "basic": "50 GB",
+          "team": "500 GB",
+          "pro": "1 TB",
+          "epro": "2 TB"
+        }
+      ]
+    },
+    {
+      "category": "Customer Management",
+      "items": [
+        {
+          "header": "Unlimited Contacts",
+          "basic": true,
+          "team": true,
+          "pro": true,
+          "epro": true
+        },
+        {
+          "header": "Import Contacts",
+          "basic": true,
+          "team": true,
+          "pro": true,
+          "epro": true
+        },
+        {
+          "header": "Contact Custom Fields",
+          "basic": true,
+          "team": true,
+          "pro": true,
+          "epro": true
+        },
+        {
+          "header": "Unlimited Contact Groups",
+          "basic": true,
+          "team": true,
+          "pro": true,
+          "epro": true
+        },
+        {
+          "header": "Contact Group Custom Fields",
+          "basic": false,
+          "team": false,
+          "pro": true,
+          "epro": true
+        },
+        {
+          "header": "Unlimited Contacts",
+          "basic": true,
+          "team": true,
+          "pro": true,
+          "epro": true
+        },
+        {
+          "header": "Import Contacts",
+          "basic": true,
+          "team": true,
+          "pro": true,
+          "epro": true
+        },
+        {
+          "header": "Contact Custom Fields",
+          "basic": true,
+          "team": true,
+          "pro": true,
+          "epro": true
+        },
+        {
+          "header": "Unlimited Contact Groups",
+          "basic": true,
+          "team": true,
+          "pro": true,
+          "epro": true
+        },
+        {
+          "header": "Contact Group Custom Fields",
+          "basic": false,
+          "team": false,
+          "pro": true,
+          "epro": true
+        }
+      ]
+    },
+    {
+      "category": "Help Desk Automation",
+      "items": [
+        {
+          "header": "Smart Rule Automation",
+          "basic": true,
+          "team": true,
+          "pro": true,
+          "epro": true
+        },
+        {
+          "header": "SLA Breach Notification",
+          "basic": false,
+          "team": true,
+          "pro": true,
+          "epro": true
+        },
+        {
+          "header": "Load Balanced Ticket Assignment",
+          "basic": false,
+          "team": false,
+          "pro": true,
+          "epro": true
+        }
+      ]
+    }
+  ]
+}

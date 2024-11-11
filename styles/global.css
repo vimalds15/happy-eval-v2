@@ -1,0 +1,128 @@
+@import "../components/header/header.style.css";
+@import "../components/navbar/navbar.style.css";
+@import "../components/plans/plans.style.css";
+@import "../components/compare/compare.style.css";
+@import "../components/faq/faq.style.css";
+@import "../components/more/more.style.css";
+@import "../components/footer/footer.style.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+:root {
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-secondary {
+  color: #9b9b9b;
+  font-weight: 300;
+}
+
+.text-xsm {
+  font-size: 12px;
+}
+
+.text-sm {
+  font-size: 14px;
+}
+
+.text-bold {
+  font-weight: 500;
+}
+
+.text-lg {
+  font-size: 19px;
+}
+
+.text-xlg {
+  font-size: 24px;
+}
+
+.text-xl {
+  font-size: 32px;
+}
+
+.text-2xl {
+  font-size: 40px;
+}
+
+.text-3xl {
+  font-size: 48px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.arrow-down {
+  height: 8px;
+  margin-top: 2px;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.chevron-right {
+  width: 50px;
+  height: 50px;
+  fill: black;
+  transition: fill 0.3s ease;
+}
+
+.chevron-right:hover {
+  fill: white;
+}
+
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 7.8%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 5;
+  pointer-events: none;
+}

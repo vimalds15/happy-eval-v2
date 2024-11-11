@@ -1,0 +1,26 @@
+[
+    {
+        "question":"Who are help desk agents?",
+        "answer":"Support agents (help desk staff) who will be actively managing and responding to tickets raised by contacts."
+    },
+    {
+        "question":"What are categories?",
+        "answer":"Categories allow you to separate incoming requests into dedicated ticket types that can be distributed to a specific team, have unique SLA requirements, and produce insightful metrics."
+    },
+    {
+        "question":"How can I change my plan?",
+        "answer":"You can upgrade your plan at any point in time. However, if you want to downgrade, you can do it at the end of the current billing cycle. You may also write to billing@happyfox.com or contact your Account Executive."
+    },
+    {
+        "question":"Do you offer a trial?",
+        "answer":"Yes. We encourage you to request a demo to determine if HappyFox Help Desk is the right fit for your organization. Once we identify your needs, we'd be happy to provide access to a trial account where you can configure your proof of concept"
+    },
+    {
+        "question":"Do you offer discounts for non-profits or educational institutes?",
+        "answer":"We offer a 10% discount on annual subscriptions on any plan."
+    },
+    {
+        "question":"What are the available billing cycles?",
+        "answer":"We offer a monthly, annual and 2-year savings plan (paid upfront)."
+    }
+]

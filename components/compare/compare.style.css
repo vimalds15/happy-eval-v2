@@ -1,0 +1,206 @@
+.plans-table-container {
+  padding: 0 12%;
+}
+
+.compare-plans-title {
+  padding: 3rem 0;
+  background-color: #f8f8f8;
+}
+
+.compare-plans-note {
+  margin-top: 2rem;
+}
+
+.row-header p {
+  color: #323643;
+  font-weight: 300;
+  border-bottom: 0.5px dotted #323643;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.plans-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 3rem;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.plans-grid-header {
+  display: contents;
+  font-weight: bold;
+}
+
+.plans-grid-header-item {
+  font-size: 20px;
+  font-weight: 500;
+  background-color: white;
+  padding-bottom: 2rem;
+  text-align: start;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem;
+  position: sticky;
+  top: 13.5%;
+}
+
+.plans-grid-row {
+  display: contents;
+}
+
+.plans-grid-item {
+  padding: 1rem;
+  text-align: start;
+  background-color: #fff;
+  color: #797979;
+  font-weight: 300;
+}
+
+.plans-grid-row:nth-child(even) .plans-grid-item {
+  background-color: #fafafa;
+}
+
+.plans-grid-header {
+  padding-left: 1rem;
+}
+
+.plans-grid-category {
+  grid-column: span 5;
+  text-align: start;
+  padding: 2rem 0 0.3rem 0;
+}
+
+.plans-grid-category-header {
+  padding-left: 1rem;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.pricing-no-tick,
+.pricing-tick {
+  width: 20px;
+  height: 20px;
+  background: url(https://assets.www.happyfox.com/v2/images/pricing-tick.svg)
+    no-repeat left top;
+}
+
+.pricing-no-tick {
+  background: url(https://assets.www.happyfox.com/v2/images/pricing-no-tick.svg)
+    no-repeat left top;
+}
+
+.row-header {
+  width: 22rem;
+}
+
+.row-header:hover p {
+  color: #f16631;
+  border-bottom: 0.5px dotted #f16631;
+}
+
+@media (max-width: 992px) {
+  .plans-grid {
+    display: block;
+    padding: 0;
+  }
+
+  .plans-grid-header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0;
+    position: sticky;
+    top: 9.7%;
+  }
+
+  .plans-grid-header-item {
+    border: none;
+    position: none;
+  }
+
+  .plans-grid-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .row-header {
+    font-weight: bold;
+    grid-column: span 4;
+    text-align: left;
+    padding-left: 10px;
+    width: 100%;
+  }
+
+  .plans-grid-item {
+    padding: 1rem;
+    font-size: 14px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  /* .plans-grid-header {
+    top: 6.7%;
+  }
+  .plans-grid-header-item {
+    top: 6.7%;
+  } */
+}
+
+@media (max-width: 576px) {
+  .plans-grid {
+    display: block;
+    padding: 0;
+  }
+
+  .plans-grid-header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
+    position: sticky;
+    top: 6.7% !important;
+  }
+
+  .plans-grid-header-item {
+    border: none;
+    position: none;
+    top: 6.7%;
+  }
+
+  .plans-grid-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .row-header {
+    font-weight: bold;
+    grid-column: span 2;
+    text-align: left;
+    padding-left: 10px;
+    width: 100%;
+  }
+
+  .plans-grid-item {
+    padding: 1rem;
+    font-size: 14px;
+    text-align: left;
+  }
+}
+
+.show-more-button {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  padding: 5px 10px;
+  width: fit-content;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.show-more-button:hover {
+  background-color: #d2d2d2;
+}
+
+.hidden-row {
+  display: none;
+}
